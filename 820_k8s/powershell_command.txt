@@ -1,0 +1,9 @@
+Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value &quot;`n127.0.0.1todo.com&quot;
+Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value &quot;`n127.0.0.1todo.com"
+
+&quot;`n127.0.0.1
+Add-
+ipconfig /flushdns
+ping todo.com
+Add-Content -Path C:\Windows\System32\drivers\etc\hosts -Value "`n127.0.0.1 todo.com"
+kubectl apply -f .\mongo-deployment.yml
